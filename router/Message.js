@@ -1,5 +1,5 @@
 const express = require('express');
-const {sendMessage, fetchMessages} = require('../controller/message');
+const {sendMessage, fetchMessages} = require('../controller/Message');
 const router = express.Router();
 
 router.post('/send', sendMessage);
